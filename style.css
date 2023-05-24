@@ -1,0 +1,28 @@
+#heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(165, 190, 240);
+    color: darkblue;
+}
+body{
+    background-color:rgb(197, 124, 219);
+}
+#showSketch{
+    float:right;
+}
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: draw;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes draw{
+    from{box-shadow: 1px 1px 38px purple ;}
+    to{box-shadow: 1px 1px 38px pink ;}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    
+}
